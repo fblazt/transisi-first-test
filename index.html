@@ -4,9 +4,100 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
   <title>Transisi First Test</title>
 </head>
 <body>
-  <h1>Transisi</h1>
+  <div class="flex">
+
+    <aside class="flex__start"></aside>
+
+    <main class="flex__end">
+
+      <div class="todo">
+        <header class="todo__header">
+
+          <div class="todo__header__left">
+            <h2 class="todo__title">Cyber Punk</h2>
+            <span class="todo__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ullam a minus dignissimos officiis rem deserunt sed eius quis modi.</span>
+          </div>
+
+          <div class="todo__header__right">
+            <div class="user">
+              <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="Profile Pict" class="user__thumbnail">
+              <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="Profile Pict" class="user__thumbnail">
+              <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="Profile Pict" class="user__thumbnail">
+            </div>
+            <i class="user__add fas fa-plus-circle fa-2x"></i>
+          </div>
+
+        </header>
+
+        <section class="todo__section">
+          <div class="todo__collection">
+            <h3 class="todo__name">Todos</h3>
+            <i class="todo__setting fas fa-ellipsis-h fa-2x"></i>
+          </div>
+          <hr class="divider">
+          <div>
+            <div class="todo__item">
+              <div class="box">
+                <input id="one" type="checkbox">
+                <span class="check"></span>
+                <label for="one">Create initial layout for homepage</label>
+              </div>
+              <span class="todo__status todo__status--approved">Approved</span>
+            </div>
+            <div class="todo__item">
+              <div class="box">
+                <input id="two" type="checkbox">
+                <span class="check"></span>
+                <label for="two">Fixing icons with transparant background</label>
+              </div>
+              <span class="todo__status todo__status--progress">In Progress</span>
+            </div>
+            <div class="todo__item">
+              <div class="box">
+                <input id="two" type="checkbox">
+                <span class="check"></span>
+                <label for="two">Fixing icons with transparant background</label>
+              </div>
+              <span class="todo__status todo__status--progress">In Progress</span>
+            </div>
+            <div class="todo__item">
+              <div class="box">
+                <input id="two" type="checkbox">
+                <span class="check"></span>
+                <label for="two">Create initial layout for homepage</label>
+              </div>
+              <span class="todo__status todo__status--progress">In Progress</span>
+            </div>
+            <div class="todo__item">
+              <div class="box">
+                <input id="two" type="checkbox">
+                <span class="check"></span>
+                <label for="two">Discussions regarding workflow improvement</label>
+              </div>
+              <span class="todo__status todo__status--review">In Review</span>
+            </div>
+            <div class="todo__item">
+              <div class="box">
+                <input id="two" type="checkbox">
+                <span class="check"></span>
+                <label for="two">Create quotation for app redesign project</label>
+              </div>
+              <span class="todo__status">Waiting</span>
+            </div>
+          </div>
+        </section>
+
+        <div class="todo__footer">
+          <button class="button"><i class="fas fa-plus fa-lg"></i></button>
+        </div>
+      </div>
+
+    </main>
+  </div>
 </body>
 </html>
